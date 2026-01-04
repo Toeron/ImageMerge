@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+dist/
+build/
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+
+# Agent
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db
