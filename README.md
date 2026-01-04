@@ -29,12 +29,47 @@ A powerful desktop application for aligning historical photos with modern day re
 
 ## Installation
 
-1.  **Install Python 3.9+**
-2.  **Install Dependencies**:
+### Windows 🪟
+
+1.  **Install Python**: Ensure you have Python 3.9+ installed. [Download Here](https://www.python.org/downloads/).
+2.  **Clone the Repository** (or download zip):
+    ```powershell
+    git clone https://github.com/Toeron/ImageMerge.git
+    cd ImageMerge
+    ```
+3.  **Create a Virtual Environment** (Recommended):
+    ```powershell
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+4.  **Install Dependencies**:
+    ```powershell
+    pip install -r requirements.txt
+    ```
+
+### Linux 🐧
+
+1.  **Install System Dependencies**:
+    You may need `python3-venv` and OpenGL libraries for OpenCV.
+    ```bash
+    sudo apt update
+    sudo apt install python3-pip python3-venv libgl1
+    ```
+2.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Toeron/ImageMerge.git
+    cd ImageMerge
+    ```
+3.  **Setup Virtual Environment**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+4.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
-    *Dependencies*: `PyQt6`, `opencv-python`, `numpy`
+    *Dependencies include: `PyQt6`, `opencv-python`, `numpy`*
 
 ## Usage
 
