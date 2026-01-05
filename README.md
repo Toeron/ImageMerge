@@ -2,6 +2,8 @@
 
 A powerful desktop application for aligning historical photos with modern day recreations. This tool allows you to manually correct perspective and lens distortion differences between two images using advanced warping techniques.
 
+![Screenshot of the application](public/screenshot.png)
+
 ## Features
 
 ### 🛠️ Advanced Warping Methods
